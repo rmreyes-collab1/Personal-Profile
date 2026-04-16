@@ -57,7 +57,3 @@ body::before {
     text-transform: uppercase;
     letter-spacing: 1px;
 }
-
-.nav a:hover {
-    text-decoration: underline;
-}
