@@ -55,7 +55,7 @@ body::before {
     margin-bottom: 15px;
 }
 
-/* Shared indentation (≈ 3 spaces feel) */
+/* Shared indentation (same feel as Skills page) */
 .quote,
 .home-nav {
     text-align: left;
@@ -72,9 +72,9 @@ body::before {
     opacity: 0.9;
 }
 
-/* HOME styling */
+/* HOME styling (same system as Skills page) */
 .home-nav {
-    margin-top: 10px;
+    margin-top: 40px;
 }
 
 .home-nav a {
@@ -83,5 +83,8 @@ body::before {
     text-decoration: none;
     font-weight: bold;
     letter-spacing: 2px;
+}
+
+.home-nav a:hover {
     text-decoration: underline;
 }
