@@ -1,0 +1,87 @@
+body {
+    font-family: "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: url("bg(1).jpeg") center/cover fixed;
+    text-align: center;
+    color: #fff;
+    position: relative;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.25);
+    z-index: -1;
+}
+
+.about-container {
+    margin-top: 60px;
+    padding: 20px;
+}
+
+.title {
+    color: black;
+    font-size: 2.5rem;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 320px;
+    padding: 25px;
+    border-radius: 20px;
+
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(8px);
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+
+    text-align: left;
+    line-height: 1.6;
+    font-size: 16px;
+}
+
+.box h2 {
+    text-align: center;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+/* Shared indentation (≈ 3 spaces feel) */
+.quote,
+.home-nav {
+    text-align: left;
+    padding-left: 24px;
+}
+
+/* Quote styling */
+.quote {
+    margin-top: 80px;
+    font-size: 18px;
+    font-style: italic;
+    color: #fff;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+/* HOME styling */
+.home-nav {
+    margin-top: 10px;
+}
+
+.home-nav a {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
